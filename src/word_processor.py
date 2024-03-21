@@ -26,6 +26,10 @@ def replace_words(sentence, organized_words):
     and return the new generated sentence.
     """
     def find_replacement(word):
+        """
+        Finds a replacement for a given word, using the preprocessed word list
+        and returns either the replacement, or the original word itself.
+        """
         key = (word[0], len(word))
         replacements = organized_words.get(key, [])
         if replacements:

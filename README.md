@@ -1,16 +1,15 @@
 # Scrabble Word Processor
 
-Scrabble Word Processor is a Python console application written to assist with those that are very serious about [Scrabble](https://en.wikipedia.org/wiki/Scrabble).
+**Scrabble Word Processor** is a Python console application written to assist with those that are very serious about [Scrabble](https://en.wikipedia.org/wiki/Scrabble).
 
-Makes use of the word list found here: https://github.com/dwyl/english-words/blob/master/words_alpha.txt
+Makes use of the word list found here, containing **370,000** words: https://github.com/dwyl/english-words/blob/master/words_alpha.txt
 
 Given the sentence **lightly fried fish are delicious**, the program may return **likable frier frog arm delegated**. Running it again may yield **lenient fuses foam any digressed**.
 
-
 ## Installation
 
-1. Ensure you have **Python** 3.12 installed on your system, if not, it can be found here: https://www.python.org/downloads/
-2. Either clone the repository using [Git](https://git-scm.com/downloads), or alternatively download the project directly from GitHub as a zip file.
+1. Ensure you have **Python** **>= 3.12** installed on your system, if not, it can be found here: https://www.python.org/downloads/
+2. Either clone the project using [Git](https://git-scm.com/downloads), or alternatively, download the project directly from GitHub as a zip file. _Ensure you unzip this file_
 
 ## Usage
 
@@ -24,8 +23,24 @@ Open your system's console/terminal shell and use the following commands:
 cd path/to/downloaded/project/src
 ```
 
+Once you are inside the project's **src** directory:
+
 ```bash
 python main.py
+```
+
+```code
+**********************************************
+	***  Scrabble Word Processor  ***
+	***  Scrabble Your Words!  ***
+**********************************************
+Input your sentence (or type 'exit' to quit): lightly fried fish are delicious
+Scrabbled Sentence: lactary funli fete ave deligated
+Input your sentence (or type 'exit' to quit): lightly fried fish are delicious
+Scrabbled Sentence: lousily fairy falx awn disinhume
+Input your sentence (or type 'exit' to quit): lightly fried fish are delicious
+Scrabbled Sentence: langaha flyer fiar ave diplumbic
+Input your sentence (or type 'exit' to quit):
 ```
 
 ## Overview
