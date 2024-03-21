@@ -6,10 +6,12 @@ Makes use of the word list found here, containing **370,000** words: https://git
 
 Given the sentence **lightly fried fish are delicious**, the program may return **likable frier frog arm delegated**. Running it again may yield **lenient fuses foam any digressed**.
 
-## Installation
+## Installation & Setup
 
-1. Ensure you have **Python** **>= 3.12** installed on your system, if not, it can be found here: https://www.python.org/downloads/
-2. Either clone the project using [Git](https://git-scm.com/downloads), or alternatively, download the project directly from GitHub as a zip file. _Ensure you unzip this file_
+Ensure you have **Python** **>= 3.12** installed on your system, if not, it can be found here: https://www.python.org/downloads/
+
+1. Either clone the project using [Git](https://git-scm.com/downloads), or alternatively, download the project directly from GitHub as a zip file. _Ensure you unzip this file_
+2. Check the repository [releases](https://github.com/ErrAza/word_processor/releases) for the latest tagged releases and download the **zip** or **tar.gz** depending on operating system/preference.
 
 ## Usage
 
@@ -17,22 +19,24 @@ Open a terminal/console window, change your working directory to that of where y
 
 ### Example:
 
-Open your system's console/terminal shell and use the following commands:
+In your system's console/terminal, make use of the following commands:
 
 ```bash
 cd path/to/downloaded/project/src
 ```
 
-Once you are inside the project's **src** directory:
+Once you are inside the project's **src** directory, use **python** to run the application:
 
 ```bash
 python main.py
 ```
 
+### Console Output
+
 ```code
 **********************************************
 	***  Scrabble Word Processor  ***
-	***  Scrabble Your Words!  ***
+	***   Scrabble Your Words!    ***
 **********************************************
 Input your sentence (or type 'exit' to quit): lightly fried fish are delicious
 Scrabbled Sentence: lactary funli fete ave deligated
@@ -43,7 +47,7 @@ Scrabbled Sentence: langaha flyer fiar ave diplumbic
 Input your sentence (or type 'exit' to quit):
 ```
 
-## Overview
+## Basic Project Overview
 
 ```bash
 word_replacer_app/
