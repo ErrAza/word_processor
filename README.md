@@ -50,15 +50,20 @@ Input your sentence (or type 'exit' to quit):
 ## Basic Project Overview
 
 ```bash
-word_replacer_app/
+word_processor/
 │
 ├── data/
-│   └── word_list.txt          # Text file containing the word list
+│   └── words_alpha.txt        # Text file containing the word list
 │
 ├── src/
 │   ├── __init__.py            # Makes src a Python package
 │   ├── word_processor.py      # Contains functions for processing words
 │   └── main.py                # Entry point of the application, handles user interaction
+│
+├── test/
+│   └── test_scrabbler.py      # Basic pytest suite for the application
+│
+├── requirements.txt           # Required Packages to be installed for development
 │
 └── README.md                  # Documentation explaining the application, usage, etc.
 ```
